@@ -15,19 +15,18 @@
 .navstyle1 {
     color: white;
     text-align: right;
-    border-bottom: 50px;
+    margin-right: 20vh;
 }
 
 h1.title {
     font-size: 50px;
-    padding-top: 100px;
-    padding-right: 50px;
+    padding-top: 20vh;
+
 }
 
 p.description {
     font-size: 20px;
     padding-top: 30px;
-    padding-right: 50px;
     padding-bottom: 30px;
 }
 
@@ -36,7 +35,6 @@ p.description {
     font-weight: 800;
     font-size: 20px;
     padding: 15px 25px;
-    margin-right: 50px;
     border-radius: 5px;
     border-color: white;
 }
@@ -86,6 +84,11 @@ ul {
 
 }
 
+/*second section*/
+.secstyle2 {
+    margin-top: 10vh;
+}
+
 .plan {
     padding-right: 10px;
 }
@@ -106,12 +109,21 @@ ul {
     color: #757575;
     margin-bottom: 20px;
 }
+
 /*My Section*/
 .mysec {
     display: flex;
     width: 70%;
     margin: auto;
+    margin-top: 10vh;
+    background-color: #005fac6c;
+    border-radius: 15px;
 }
+
+.me {
+    border-radius: 50%;
+}
+
 .mystyle {
     padding: 50px;
     text-align: left;
@@ -129,13 +141,15 @@ ul {
     font-size: 25px;
 }
 
-.secstyle2 {
+/*third section*/
+.secstyle3 {
     background-image: url(images/watch.png);
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 40vh;
     width: 70%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10vh;
+    border-radius: 15px;
 }
 
 .navstyle4 {
@@ -161,6 +175,7 @@ h3.positive {
 /*Footer style*/
 .bgfooter {
     background-color: black;
+    margin-top: 10vh;
 }
 
 .foot-sec {
@@ -204,13 +219,13 @@ h3.positive {
 }
 
 .form {
-    padding: 10px;
+    padding: 15px 20px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
 .btncolor {
-
+    font-size: 15px ;
     background-color: #005FAC;
     color: white;
 }
